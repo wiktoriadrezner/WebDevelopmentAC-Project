@@ -1,4 +1,4 @@
-const db = new sqlite3.Database("myprojectdatabase.db");
+const db = new sqlite3.Database("stores.db");
 
 db.run(`PRAGMA foreign_keys = ON`);
 
@@ -9,4 +9,3 @@ db.run(`CREATE TABLE IF NOT EXISTS stores(
   storeURL TEXT,
   storeDistrict TEXT
 )`);
-
