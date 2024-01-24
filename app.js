@@ -1,12 +1,9 @@
-import vue from "vue";
-import JkpgCityApp from "app.vue";
-import "./assets/main.css";
-
-// const vue = require("vue");
-// const JkpgCityApp = require("app.vue");
+/* Import the Vue component */
+const Vue = require("vue");
+const JkpgCityApp = require("app.vue");
 
 // Render Vue app
-new vue({
+new Vue({
     render: (h) => h(JkpgCityApp),
 }).$mount("#app");
 
@@ -23,22 +20,13 @@ database.run(`
 		storeName TEXT,
 		storeURL TEXT,
 		storeDistrict TEXT,
-		storeAddress TEXT,
+		storeAddress TEXT
 	);
 `);
 
 const express = require("express");
 const app = express();
 const port = 3000;
-
-// app.use((req, res, next) => {
-//     console.log("Time:", Date.now());
-//     next();
-// });
-
-// app.get("/", (req, res) => {
-//     res.send("Hello World!");
-// });
 
 app.listen(port, () => {
     console.log(`Server running at http://localhost:${port}`);
