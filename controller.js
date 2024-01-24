@@ -5,7 +5,7 @@ class Controller {
         this.Users = new Users(this);
     }
 }
-module.exports = new Controller();
+m4odule.exports = new Controller();
 
 class Users {
     constructor(Controller) {

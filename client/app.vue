@@ -20,7 +20,7 @@ import Footer from "./components/footer.vue"; // Footer
 import Homepage from "./components/homepage.vue"; // Homepage
 
 /* Import the stylesheet */
-import "./public/main.css";
+import "public/main.css";
 
 /* Export a Vue.js component */
 export default {
