@@ -8,57 +8,62 @@
   {
     "name": "Akademibokhandeln",
     "url": "akademibokhandeln.se/butik/jonkoping-c",
-    "district": "Öster"
+    "district": "Öster",
+    "address": "Östra Storgatan 28A, 553 21 Jönköping"
   },
   {
     "name": "Apoteket AB",
     "url": "apoteket.se/apotek/apoteket-ostra-storgatan-jonkoping/",
-    "district": null
+    "district": null,
+    "address": "Östra Storgatan 21, 553 21 Jönköping"
   },
   {
     "name": "Apotek Hjärtat",
     "url": "apotekhjartat.se/hitta-apotek-hjartat/jonkoping/apotek_hjartat_smedjegatan_2_jonkoping/",
-    "district": null
+    "district": null,
+    "address": "Smedjegatan 2, 553 20 Jönköping"
   },
   {
     "name": "Ashur Brud & Fest - Skrädderi",
     "url": "facebook.com/AshuraitaBrudFest/",
-    "district": null
+    "district": null,
+    "address": "Klostergatan 6B, 553 17 Jönköping"
   },
   {
     "name": "Asia livs, servicebutik",
     "url": "facebook.com/profile.php?id=100051215441977",
-    "district": null
+    "district": null,
+    "address": "Östra Storgatan 73, 553 21 Jönköping"
   },
   {
     "name": "Ateljé Creativ i Jönköping/Finrummet",
     "url": "/finrummet.net",
-    "district": "Väster"
+    "district": "Väster",
+    "address": "Skolgatan 11, 553 61 Jönköping"
   },
   {
     "name": "Ateljé KEG",
     "url": "ateljekeg.se",
-    "district": "Öster"
+    "district": "Öster",
+    "address": "Smedjegatan 28, 553 20 Jönköping"
   },
   {
     "name": "Atlantis Dive College",
     "url": "atlantis.se",
-    "district": "Väster"
-  },
-  {
-    "name": "Bagelle väskboutique",
-    "url": null,
-    "district": null
+    "district": "Väster",
+    "address": "Nygatan 10, 553 16 Jönköping"
   },
   {
     "name": "Balance Ljud och Bild",
     "url": "balance.se",
-    "district": null
+    "district": null,
+    "address": "Tändsticksgränd 34, 553 15 Jönköping"
   },
   {
     "name": "BGA Fotocenter",
     "url": "bgafotocenter.se/jonkoping/",
-    "district": "Öster"
+    "district": "Öster",
+    "address": "Smedjegatan 8, 553 20 Jönköping"
   },
   {
     "name": "Bikupan",
@@ -68,337 +73,404 @@
   {
     "name": "Blankdays",
     "url": "https://blankdays.com/collections/all-products?gclid=CjwKCAjwov6hBhBsEiwAvrvN6EZZ1PsnlSJhnE7bmxINtl0Y0noU3rvCybdt217CGd3-bqMdx3mYRxoCK5EQAvD_BwE",
-    "district": "Tändsticksområdet"
+    "district": "Tändsticksområdet",
+    "address": "Tändsticksgränd 3, 553 15 Jönköping"
   },
   {
     "name": "Boardlife",
     "url": "boardlife.se",
-    "district": "Väster"
+    "district": "Väster",
+    "address": "Smålandsgatan 17, 553 16 Jönköping"
   },
   {
     "name": "Borgs skor",
     "url": "borgsskor.se/kontakt",
-    "district": "Öster"
+    "district": "Öster",
+    "address": "Smedjegatan 24, 553 20 Jönköping"
   },
   {
     "name": "Boutique Lykka",
     "url": "boutiquelykka.se",
-    "district": "Öster"
+    "district": "Öster",
+    "address": "Östra Storgatan 25-27, 553 21 Jönköping"
   },
   {
     "name": "Broder Bläck",
     "url": "facebook.com/broderblacktatuering/",
-    "district": "Öster"
+    "district": "Öster",
+    "address": "Rörstrandsgatan 11, 556 28 Jönköping"
   },
   {
     "name": "Buketten",
     "url": "instagram.com/bukettenjonkoping/?hl=sv",
-    "district": "Öster"
+    "district": "Öster",
+    "address": "Östra Storgatan 25, 553 21 Jönköping"
   },
   {
     "name": "Busfrö Nytt & Bytt",
     "url": "busfro.se",
-    "district": "Öster"
+    "district": "Öster",
+    "address": "Smedjegatan 25B, 553 20 Jönköping"
   },
   {
     "name": "Butiken Noga Utvalt",
     "url": "butikenjkpg.se",
-    "district": "Atollen"
+    "district": "Atollen",
+    "address": "Lantmätargränd 42, 553 20 Jönköping"
   },
   {
     "name": "Carlings",
     "url": "carlings.com/sv/corporate/Butiker/sweden/58f/",
-    "district": "Öster"
+    "district": "Öster",
+    "address": "Östra Storgatan 28, 553 21 Jönköping"
   },
   {
     "name": "Casa Souk",
     "url": "casasouk.se",
-    "district": "Väster"
+    "district": "Väster",
+    "address": "Barnarpsgatan 17, 553 16 Jönköping"
   },
   {
     "name": "Cervera",
     "url": "cervera.se/hitta-butik/",
-    "district": "Öster"
+    "district": "Öster",
+    "address": "Östra Storgatan 34, 553 21 Jönköping"
   },
   {
     "name": "Clas Ohlson",
     "url": "clasohlson.com/se/store-finder?q=J%C3%B6nk%C3%B6ping,%20City&latitude=57.78252&longitude=14.17347&source=search",
-    "district": "Öster"
+    "district": "Öster",
+    "address": "Östra Storgatan 17, 553 21 Jönköping"
   },
   {
     "name": "Coop Atollen",
     "url": "coop.se/butiker-erbjudanden/coop/coop-atollen-jonkoping/",
-    "district": "Atollen"
+    "district": "Atollen",
+    "address": "Lantmätargränd 63, 553 20 Jönköping"
   },
   {
     "name": "Coop Östra Torget",
     "url": "coop.se/butiker-erbjudanden/coop/coop-ostra-torget/",
-    "district": "Öster"
+    "district": "Öster",
+    "address": "Rökerigränd 5, 553 33 Jönköping"
   },
   {
     "name": "Copenhagen Luxe",
     "url": "https://copenhagenluxe.dk/",
-    "district": "Öster"
+    "district": "Öster",
+    "address": "Östra Storgatan 11, 553 21 Jönköping"
   },
   {
     "name": "Day fotografi",
     "url": "dayfotografi.se/",
-    "district": null
+    "district": null,
+    "address": "Borgmästargränd 4A, 553 20 Jönköping"
   },
   {
     "name": "Dinos kemtvätt",
     "url": "dinos.nu",
-    "district": "Väster"
+    "district": "Väster",
+    "address": "Nygatan 11, 553 16 Jönköping"
   },
   {
     "name": "Din Sko",
     "url": "dinsko.se/stores",
-    "district": "Öster"
+    "district": "Öster",
+    "address": "Östra Storgatan 17, 553 21 Jönköping"
   },
   {
     "name": "Direkt optik",
     "url": "https://www.direktoptik.se/butiker/jonkoping/ostra-storgatan-29/",
-    "district": null
+    "district": null,
+    "address": "Östra Storgatan 29, 553 21 Jönköping"
   },
   {
     "name": "Dressman",
     "url": "dressmann.com/no/bedriftssider/finn-butikk/Sweden/Dressmann_Jonkoping/",
-    "district": "Öster"
+    "district": "Öster",
+    "address": "Östra Storgatan 28, 553 21 Jönköping"
   },
   {
     "name": "Elias Urmästare",
     "url": "facebook.com/profile.php?id=100064073112753",
-    "district": null
+    "district": null,
+    "address": "Smedjegatan 14, 553 20 Jönköping"
   },
   {
     "name": "Engströms Urmakeri",
     "url": "engstromsurmakeri.se",
-    "district": null
+    "district": null,
+    "address": "Östra Storgatan 13B, 553 21 Jönköping"
   },
   {
     "name": "Euroex",
     "url": null,
-    "district": null
+    "district": null,
+    "address": "Västra Storgatan 7, 553 15 Jönköping"
   },
   {
     "name": "Evoke industry",
     "url": null,
-    "district": null
+    "district": null,
+    "address": "Fabriksgatan 8, 553 17 Jönköping"
   },
   {
     "name": "Fabriken",
     "url": "butikfabriken.se",
-    "district": "Atollen"
+    "district": "Atollen",
+    "address": "Lantmätargränd 53, 553 20 Jönköping"
   },
   {
     "name": "Fiction Prescription",
     "url": "https://www.instagram.com/fiction.prescription.jonkoping/",
-    "district": null
+    "district": null,
+    "address": "Lantmätargränd 20, 553 20 Jönköping"
   },
   {
     "name": "Forex Bank Väster",
     "url": null,
-    "district": "Väster"
+    "district": "Väster",
+    "address": "Västra Storgatan 6, 553 15 Jönköping"
   },
   {
     "name": "Foten",
     "url": "https://www.foten.se/",
-    "district": null
+    "district": null,
+    "address": "Östra Storgatan 35, 553 21 Jönköping"
   },
   {
     "name": "Friendly Corner",
     "url": "https://friendlycorner.se/butiken",
-    "district": "Tändsticksområdet"
+    "district": "Tändsticksområdet",
+    "address": "Tändsticksgränd 36, 553 15 Jönköping"
   },
   {
     "name": "Galleri 701 ramcenter",
     "url": "galleri701-ram.se",
-    "district": null
+    "district": null,
+    "address": "Östra Storgatan 47, 553 21 Jönköping"
   },
   {
     "name": "Gant",
     "url": "gant.se/stores?lat=57.78261370000001&long=14.1617876&postalCode=j%C3%B6nk%C3%B6ping&radius=10.0",
-    "district": "Atollen"
+    "district": "Atollen",
+    "address": "Lantmätargränd 63, 553 20 Jönköping"
   },
   {
     "name": "Gåvan",
     "url": "gavanjonkoping.se",
-    "district": "Öster"
+    "district": "Öster",
+    "address": "Smedjegatan 7, 553 20 Jönköping"
   },
   {
     "name": "Gina Tricot",
     "url": "ginatricot.com/se/find-store",
-    "district": "Öster"
+    "district": "Öster",
+    "address": "Östra Storgatan 34, 553 21 Jönköping"
   },
   {
     "name": "Go Banana",
     "url": "gobanana.se",
-    "district": "Väster"
+    "district": "Väster",
+    "address": "Barnarpsgatan 27, 553 16 Jönköping"
   },
   {
     "name": "Godis och Tobakshörnan",
-    "url": null,
-    "district": "Öster"
+    "url": "https://www.facebook.com/GodisOchTobakJonkoping/",
+    "district": "Öster",
+    "address": "Oxtorgsgatan 17 D, 553 17 Jönköping"
   },
   {
     "name": "Golden athlete",
     "url": "goldenathlete.se/sv/butiker-2",
-    "district": "Öster"
+    "district": "Öster",
+    "address": "Östra Storgatan 23, 553 21 Jönköping"
   },
   {
     "name": "Grmawit Store",
     "url": "grmawit.com/",
-    "district": "Väster"
+    "district": "Väster",
+    "address": "Västra Storgatan 6, 553 15 Jönköping"
   },
   {
     "name": "Guldsmedjan Snarberg",
     "url": "guldsmedjan-snarberg.se",
-    "district": "Väster"
+    "district": "Väster",
+    "address": "Barnarpsgatan 28, 553 16 Jönköping"
   },
   {
     "name": "Hälsokraft",
     "url": "halsokraft.se/butiker?butik=503",
-    "district": "Öster"
+    "district": "Öster",
+    "address": "Östra Storgatan 23, 553 21 Jönköping"
   },
   {
     "name": "Hemköp",
     "url": "hemkop.se/butik/4674",
-    "district": "Väster"
+    "district": "Väster",
+    "address": "Barnarpsgatan 10, 553 16 Jönköping"
   },
   {
     "name": "Hemmakväll",
     "url": "hemmakvall.se/hitta-butik/",
-    "district": "Öster"
+    "district": "Öster",
+    "address": "Lantmätargränd 49, 553 20 Jönköping"
   },
   {
     "name": "Hemtex",
     "url": "hemtex.se/hitta-butik/jonkoping",
-    "district": "Öster"
+    "district": "Öster",
+    "address": "Östra Storgatan 34, 553 21 Jönköping"
   },
   {
     "name": "Hi-fi Klubben",
     "url": "hifiklubben.se/hitta-butik/jonkoping/?gclid=Cj0KCQjwhsmaBhCvARIsAIbEbH4w2ngSDzygBKQSqHVzCSFAplyrpByCMojT6dfo-Xnjcn7P9j_jBn8aAsD0EALw_wcB",
-    "district": "Väster"
+    "district": "Väster",
+    "address": "Västra Storgatan 4, 553 15 Jönköping"
   },
   {
     "name": "H&M",
     "url": "hm.com/sv_se/customer-service/shoppa-pa-hm/store-locator",
-    "district": "Öster"
+    "district": "Öster",
+    "address": "Östra Storgatan 7-9, 553 21 Jönköping"
   },
   {
     "name": "H&M Home",
     "url": "hm.com/sv_se/customer-service/shoppa-pa-hm/store-locator",
-    "district": "Öster"
+    "district": "Öster",
+    "address": "Östra Storgatan 7-9, 553 21 Jönköping"
   },
   {
     "name": "Indiska",
     "url": "indiska.com/se/butiker",
-    "district": "Öster"
+    "district": "Öster",
+    "address": "Östra Storgatan 16, 553 21 Jönköping"
   },
   {
     "name": "Jeansshoppen",
     "url": "jeansshopen.se/sv/kontakt",
-    "district": "Öster"
+    "district": "Öster",
+    "address": "Lantmätargränd 6, 553 20 Jönköping"
   },
   {
     "name": "JL Sycenter",
     "url": "jlsycenter.se/kontakta-oss/",
-    "district": null
+    "district": null,
+    "address": "Västra Storgatan 21, 55, 553 15 Jönköping"
   },
   {
     "name": "Jönköpings antik och konsthandel",
     "url": null,
-    "district": "Väster"
+    "district": "Väster",
+    "address": "Klostergatan 8, 553 17 Jönköping"
   },
   {
     "name": "Jönköpings Cigrarrimport",
     "url": "atg.se/jonkopingscigarrimport",
-    "district": null
+    "district": null,
+    "address": "Östra Storgatan 23, 553 21 Jönköping"
   },
   {
     "name": "KappAhl",
     "url": "www.kappahl.com/sv-SE/kundservice/kundservice/hitta-butik/",
-    "district": "Öster"
+    "district": "Öster",
+    "address": "Östra Storgatan 17, 553 21 Jönköping"
   },
   {
     "name": "Karin Lund Design",
     "url": "facebook.com/karinlunddesign/",
-    "district": null
+    "district": null,
+    "address": "Svavelsticksgränd 29, 553 15 Jönköping"
   },
   {
-    "name": "Katrin Bååths Ateljé",
+    "name": "Katrin Bååths Ateljén",
     "url": "https://katrinbaath.se/ateljen/",
-    "district": "Tändsticksområdet"
+    "district": "Tändsticksområdet",
+    "address": "Tändsticksgränd 28, 553 15 Jönköping"
   },
   {
     "name": "Kicks",
     "url": "kicks.se/butiker/jonkoping-smedjegatan",
-    "district": "Öster"
+    "district": "Öster",
+    "address": "Östra Storgatan 34, 553 21 Jönköping"
   },
   {
     "name": "Kjell & Company",
     "url": "kjell.com/se/butiker/sodra-strandgatan-5",
-    "district": "Öster"
+    "district": "Öster",
+    "address": "Södra Strandgatan 5, 553 20 Jönköping"
   },
   {
     "name": "Klädscoopet",
     "url": "facebook.com/Kladscoopet/",
-    "district": "Öster"
+    "district": "Öster",
+    "address": "Östra Storgatan 42, 553 21 Jönköping"
   },
   {
     "name": "KOiJ Konsthantverk",
     "url": "koij.se",
-    "district": "Öster"
+    "district": "Öster",
+    "address": "Smedjegatan 22, 553 20 Jönköping"
   },
   {
     "name": "Kristina Brud & Fest",
     "url": "kristinabrud-fest.se",
-    "district": "Väster"
+    "district": "Väster",
+    "address": "Östra Storgatan 44, 553 21 Jönköping"
   },
   {
     "name": "Kronans Apotek Atollen",
     "url": "apoteksinfo.nu/apotek/kronans_apotek_atollen_j%C3%B6nk%C3%B6ping-1415",
-    "district": "Atollen"
+    "district": "Atollen",
+    "address": "Lantmätargränd 36, 553 20 Jönköping"
   },
   {
     "name": "Kvänum Kök",
     "url": "kvanum.com/se/showrooms/jonkoping/",
-    "district": "Öster"
+    "district": "Öster",
+    "address": "Smedjegatan 42, 553 20 Jönköping"
   },
   {
     "name": "Lagerhaus",
     "url": "lagerhaus.se/stores",
-    "district": "Öster"
+    "district": "Öster",
+    "address": "Östra Storgatan 20, 553 21 Jönköping"
   },
   {
     "name": "Lavér Studio",
     "url": "laverstudio.com/",
-    "district": null
+    "district": null,
+    "address": "Västra Storgatan 6, 553 15 Jönköping"
   },
   {
     "name": "Life Naturlig Hälsa",
     "url": "https://www.lifebutiken.se/stores",
-    "district": "Väster"
+    "district": "Väster",
+    "address": "Barnarpsgatan 17, 553 16 Jönköping"
   },
   {
     "name": "Lilla Violen",
     "url": "lillaviolen.com/",
-    "district": "Väster"
+    "district": "Väster",
+    "address": "Barnarpsgatan 21, 553 16 Jönköping"
   },
   {
     "name": "Lindex",
     "url": "lindex.com/se/hitta-din-butik?location=57.756066%2C14.188254&storeId=002&zoom=11",
-    "district": "Öster"
+    "district": "Öster",
+    "address": "Östra Storgatan 15 A, 553 21 Jönköping"
   },
   {
     "name": "Livspotential Kroppsterapi",
     "url": "facebook.com/Livspotential/",
-    "district": null
+    "district": null,
+    "address": "Västra Storgatan 43, Jönköping"
   },
   {
     "name": "Lloyd Tabing Art Gallery",
     "url": "lloydtabingart.com/",
-    "district": "Tändsticksområdet"
+    "district": "Tändsticksområdet",
+    "address": "Tändsticksgränd 5, 553 15 Jönköping"
   },
   {
     "name": "Macforum",
@@ -694,5 +766,11 @@
     "name": "Zephyr Tattoo Parlour",
     "url": "zephyrtattoo.se",
     "district": "Öster"
+  },
+
+  {
+    "name": "Bagelle väskboutique",
+    "url": null,
+    "district": null
   }
 ]
