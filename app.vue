@@ -15,15 +15,15 @@
 
 <script>
 /* Import the components */
-const Navbar = require("./components/navbar.vue"); /* Navigation Bar */
-const Footer = require("./components/footer.vue"); /* Footer */
-const Homepage = require("./components/homepage.vue"); /* Homepage */
+import Navbar from "./components/navbar.vue"; // Navigation Bar
+import Footer from "./components/footer.vue"; // Footer
+import Homepage from "./components/homepage.vue"; // Homepage
 
 /* Import the stylesheet */
-require("./public/main.css");
+import "./public/main.css";
 
 /* Export a Vue.js component */
-module.exports = {
+export default {
     name: "JkpgCity",
     components: {
         Navbar,
