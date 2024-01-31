@@ -1,16 +1,11 @@
+require("dotenv").config();
+
 // Import required modules and initialize variables
 const express = require("express");
-const ModelClass = require("./model.js");
-const storesJSON = require("./stores.json");
-
 const app = express();
-const Model = new ModelClass();
 
-// Setting up the database
-app.get("/setup", async (req, res) => {
-    await Model.setup(storesJSON);
-    res.json({ success: true });
-});
+const ModelClass = require("./model.js");
+const Model = new ModelClass();
 
 // Retrieving data from the database
 app.get("/", async (req, res) => {
@@ -20,7 +15,8 @@ app.get("/", async (req, res) => {
 
 // Define a function to start the server
 const startServer = async () => {
-    await Model.init();
+    await Model.connectDatabase();
+    await Model.setupDatabase();
     app.listen(3000, () => {
         console.log("Example app listening on port 3000!");
     });
