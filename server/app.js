@@ -1,4 +1,5 @@
 // To start an app type in the terminal: node server/app.js
+// Server for the Database: 172.17.0.1
 
 require("dotenv").config();
 
