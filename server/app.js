@@ -1,3 +1,5 @@
+// To start an app type in the terminal: node server/app.js
+
 require("dotenv").config();
 
 // Import required modules and initialize variables
