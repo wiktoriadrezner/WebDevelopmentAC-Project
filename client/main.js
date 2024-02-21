@@ -1,8 +1,8 @@
-// Import the Vue component
-import Vue from "vue";
-import JkpgCityApp from "./app.vue";
+fetch("http://localhost:3000/stores/all")
+    .then((response) => response.json())
+    .then(function (stores) {
+        console.log(stores);
+        // That's where we manipulate the data
+    });
 
-// Render Vue app
-new Vue({
-    render: (h) => h(JkpgCityApp),
-}).$mount("#app");
+console.log("test");
