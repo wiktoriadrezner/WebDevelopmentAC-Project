@@ -1,39 +1,39 @@
 * {
-  padding: 0;
-  margin: 0;
-  scroll-behavior: smooth;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
 }
 body {
-  font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 h1 {
-  text-align: center;
+    text-align: center;
 }
 nav {
-  background-color: #333;
-  padding: 10px;
+    background-color: #333;
+    padding: 10px;
 }
 nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  text-align: right;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
 }
 nav ul li {
-  display: inline;
-  margin: 0 10px;
-  text-transform: uppercase;
+    display: inline;
+    margin: 0 10px;
+    text-transform: uppercase;
 }
 nav a {
-  text-decoration: none;
-  color: #fff;
+    text-decoration: none;
+    color: #fff;
 }
 footer {
-  background-color: #333;
-  color: #fff;
-  text-align: center;
-  padding: 20px;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
