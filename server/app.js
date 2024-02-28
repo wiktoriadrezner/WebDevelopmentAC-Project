@@ -43,8 +43,8 @@ app.get("/stores/all", async (req, res) => {
 // Render the start page
 app.get("/", (request, response) => {
     response.render("index", {
-        webTitle: "Homepage",
-        webStyle: "styles/stores.css",
+        webTitle: "JKPGCITY",
+        webStyle: "styles/index.css",
     });
 });
 
