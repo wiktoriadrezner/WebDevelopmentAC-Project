@@ -32,7 +32,7 @@ a:hover {
 h4 {
     text-align: center;
 }
-section {
+.contact-section-contactpersons {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
