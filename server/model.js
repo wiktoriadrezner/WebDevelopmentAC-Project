@@ -1,4 +1,4 @@
-    // Import the class from the library
+// Import the class from the library
 const { Pool } = require("pg");
 
 const stores = require("./stores.json");
