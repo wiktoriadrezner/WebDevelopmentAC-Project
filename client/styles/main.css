@@ -30,6 +30,7 @@ nav a {
     color: #fff;
 }
 footer {
+    list-style-type: none;
     background-color: #333;
     color: #fff;
     text-align: center;
