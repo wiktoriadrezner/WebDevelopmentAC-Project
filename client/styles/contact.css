@@ -19,14 +19,25 @@ h2 {
     margin-top: 0.5rem;
 }
 
-a {
-    color: rgb(59, 84, 164);
-    text-decoration: none;
-    margin-top: 0.5rem;
+.hover-button {
+    background-color: #f4f4f4;
+    color: #000000;
+    padding: 5px 15px;
+    min-width: 6rem;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, color 0.3s, box-shadow 0.3s; /* Transition for smooth effect */
 }
 
-a:hover {
-    color: rgb(0, 11, 39);
+.hover-button:hover {
+    background-color: #052c46; /* New background color on hover */
+    color: #f0f0f0; /* New text color on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .contact2 {
