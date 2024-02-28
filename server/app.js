@@ -44,7 +44,7 @@ app.get("/stores/all", async (req, res) => {
 app.get("/", (request, response) => {
     response.render("index", {
         webTitle: "Homepage",
-        webStyle: "/styles/stores.css",
+        webStyle: "styles/stores.css",
     });
 });
 
@@ -52,7 +52,7 @@ app.get("/", (request, response) => {
 app.get("/about", (request, response) => {
     response.render("about", {
         webTitle: "About",
-        webStyle: "/styles/about.css",
+        webStyle: "styles/about.css",
     });
 });
 
@@ -60,7 +60,7 @@ app.get("/about", (request, response) => {
 app.get("/contact", (request, response) => {
     response.render("contact", {
         webTitle: "Contact",
-        webStyle: "/styles/contact.css",
+        webStyle: "styles/contact.css",
     });
 });
 
@@ -68,7 +68,7 @@ app.get("/contact", (request, response) => {
 app.get("/stores", (request, response) => {
     response.render("stores", {
         webTitle: "Stores",
-        webStyle: "/styles/stores.css",
+        webStyle: "styles/stores.css",
     });
 });
 
