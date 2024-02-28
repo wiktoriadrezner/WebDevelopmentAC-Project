@@ -1,0 +1,46 @@
+.infoText {
+    text-align: center;
+}
+
+#contactDetails {
+    margin-left: 2em;
+    margin-top: 3em;
+}
+
+.contact1 {
+    margin-top: 1em;
+}
+
+.contactLink {
+    margin-top: 0.5em;
+}
+
+a {
+    color: rgb(59, 84, 164);
+    text-decoration: none;
+    margin-top: 0.5em;
+}
+
+a:hover {
+    color: rgb(0, 11, 39);
+}
+
+.contact2 {
+    margin-top: 1em;
+}
+
+h4 {
+    text-align: center;
+}
+section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+.card {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
