@@ -1,0 +1,25 @@
+.section-1 {
+    height: 80vw;
+    background-image: url(https://ju.se/images/18.23403b96183331861d211033/1663335944313/JTH_210908-5854.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.section-1 h1 {
+    color: white;
+}
+.section-1 p {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    text-transform: uppercase;
+    font-size: 3.5rem;
+    letter-spacing: 3px;
+    text-align: center;
+    margin-top: -30px;
+}
+.section-2 p {
+    width: 70%;
+    color: black;
+    font-size: 1.5rem;
+}
