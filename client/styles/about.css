@@ -1,0 +1,32 @@
+h2 {
+    text-align: center;
+}
+
+h5 {
+    margin-top: 0.5rem;
+}
+
+.jönköpingCityAB {
+    margin-top: 2rem;
+    margin-left: 2rem;
+    max-width: 45vw;
+}
+
+.vision {
+    margin-top: 2rem;
+    margin-left: 2rem;
+    max-width: 45vw;
+}
+
+.organisation {
+    margin-top: 2rem;
+    margin-left: 2rem;
+    max-width: 45vw;
+}
+
+.board {
+    margin-top: 2rem;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+    max-width: 45vw;
+}
