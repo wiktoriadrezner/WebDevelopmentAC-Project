@@ -1,7 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap");
 
 /* CSS for all pages go here */
 * {
+    --color-01: #1b1919; /* black */
+    --color-02: #ffffff; /* white */
+    --color-03: #132639; /* blue */
+    --color-04: #cc9b2a; /* gold */
+    font-family: "Open Sans", sans-serif;
     padding: 0;
     margin: 0;
     scroll-behavior: smooth;
@@ -9,76 +16,106 @@
 h1,
 h2,
 h3,
-h4 {
+h4,
+h5,
+h6 {
     font-family: "Bebas Neue", sans-serif;
     font-weight: 400;
+    letter-spacing: 1px;
     font-style: normal;
 }
 h1 {
-    font-size: 15rem;
-}
-h2 {
     font-size: 5rem;
 }
-
-h3 {
+h2 {
     font-size: 3rem;
 }
-
-h4 {
+h3 {
     font-size: 2rem;
 }
-
-h5 {
+h4 {
     font-size: 1rem;
 }
-
 body {
-    font-family: Arial, Helvetica, sans-serif;
     max-width: 100%;
 }
 .section-container {
     padding: 50px;
 }
-h1 {
-    text-align: center;
+.container-mxwidth,
+header,
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-nav {
-    background-color: #333;
-    padding: 10px;
+.container-mxwidth section,
+header section,
+footer section {
+    max-width: 1500px;
 }
-nav ul {
+
+/* Style the navigation bar */
+header {
+    background-color: var(--color-01);
+    padding: 25px 50px;
+}
+header section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+header ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     text-align: right;
 }
-nav ul li {
+header ul li {
     display: inline;
-    margin: 0 10px;
+    margin-left: 40px;
     text-transform: uppercase;
 }
-nav a {
+header a {
     text-decoration: none;
-    color: #fff;
+    color: var(--color-02);
+}
+header svg {
+    width: 100px;
 }
 
 /* Style the footer */
 footer {
-    max-width: 100%;
+    background-color: var(--color-01);
+    padding: 50px 50px 25px 50px;
+}
+footer section {
+    width: 100%;
     display: flex;
     flex-direction: column;
     row-gap: 50px;
-    padding: 50px;
     list-style-type: none;
-    background-color: #333;
-    color: #fff;
+    color: var(--color-02);
+}
+.footer-content p,
+.footer-content h3 {
+    margin-bottom: 5px;
+}
+.footer-content svg {
+    height: 50px;
+    margin-bottom: 25px;
 }
 .footer-content,
 .footer-socialmedia {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+.footer-contact {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
 }
 .footer-socialmedia {
     align-items: center;
@@ -89,13 +126,12 @@ footer {
     column-gap: 40px;
 }
 .footer-socialmedia svg {
-    height: 40px;
     width: 40px;
 }
 .footer-right {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 50px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 75px;
 }
 .footer-copyright {
     text-align: center;

@@ -1,61 +1,63 @@
-h2 {
+.contact-section-1 h1 {
     text-align: center;
 }
-
-.infoText {
+.contact-section-1 p {
     text-align: center;
+    font-size: 1.5rem;
 }
-
-#contactDetails {
-    margin-left: 2rem;
-    margin-top: 3rem;
+.contact-section-2 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
 }
-
-.contact1 {
-    margin-top: 1rem;
+.contact-section-2 .contact-card {
+    background-color: var(--color-03);
+    color: var(--color-02);
+    box-shadow: 2px 3px 5px var(--color-01);
 }
-
-.contactLink {
-    margin-top: 0.5rem;
+.contact-card img {
+    width: 100%;
+    height: 330px;
+    object-fit: cover;
+    border-bottom: 3px solid var(--color-02);
 }
-
-.hover-button {
-    background-color: #f4f4f4;
-    color: #000000;
-    padding: 5px 15px;
-    min-width: 6rem;
+.contact-card div {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.contact-card div p {
+    margin-top: 2px;
+}
+.contact-section-3 img,
+.contact-section-4 img {
+    width: 100%;
+}
+.contact-section-3 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+    padding-top: 0px;
+}
+.contact-section-3 p {
+    margin-top: 5px;
+}
+.contact-section-3 button {
+    margin-top: 15px;
+    background-color: var(--color-04);
+    box-shadow: 2px 3px 8px var(--color-03);
+    color: var(--color-02);
+    padding: 5px 20px;
+    min-width: 60px;
     font-family: "Bebas Neue", sans-serif;
     font-weight: 400;
     font-size: 1.5rem;
+    letter-spacing: 1px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: background-color 0.3s, color 0.3s, box-shadow 0.3s; /* Transition for smooth effect */
+    transition: all 0.3s ease-out;
 }
-
-.hover-button:hover {
-    background-color: #052c46; /* New background color on hover */
-    color: #f0f0f0; /* New text color on hover */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.contact2 {
-    margin-top: 1rem;
-}
-
-h4 {
-    text-align: center;
-}
-.contact-section-contactpersons {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-    padding: 20px;
-}
-.card {
-    background-color: #f4f4f4;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+.contact-section-3 button:hover {
+    background-color: var(--color-01);
 }

@@ -3,8 +3,14 @@
     background-image: url(https://ju.se/images/18.23403b96183331861d211033/1663335944313/JTH_210908-5854.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.6);
 }
-.section-1 h1 {
+.section-1 svg {
+    height: 200px;
     color: white;
 }
 .section-1 p {
@@ -16,7 +22,7 @@
     font-size: 3.5rem;
     letter-spacing: 3px;
     text-align: center;
-    margin-top: -30px;
+    margin-top: 25px;
 }
 .section-2 p {
     width: 70%;
