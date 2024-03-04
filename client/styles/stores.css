@@ -9,12 +9,11 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 50px;
-    background-color: cyan;
+    padding-top: 0;
 }
 .stores-section-2 div {
-    /* background-color: #f4f4f4; */
-    background-color: red;
-    padding: 20px;
+    background-color: #f4f4f4;
+    padding: 25px;
     border-radius: 5px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
