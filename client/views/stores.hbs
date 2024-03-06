@@ -8,11 +8,39 @@
     </div>
     <!-- Grid -->
     <div class="container-mxwidth">
+        <!-- Filters for categories -->
+        <div class="filters-category">
+            <div>
+                <h3>Categories:</h3>
+                <button onclick="filterByCategory('')">All</button>
+                <button onclick="filterByCategory('Fashion')">Fashion</button>
+                <button onclick="filterByCategory('Lifestyle')">Lifestyle</button>
+                <button onclick="filterByCategory('Health')">Health</button>
+                <button onclick="filterByCategory('Food')">Food</button>
+                <button onclick="filterByCategory('Art')">Art</button>
+                <button onclick="filterByCategory('Electronics')">Electronics</button>
+                <button onclick="filterByCategory('Footwear')">Footwear</button>
+                <button onclick="filterByCategory('Home')">Home</button>
+                <button onclick="filterByCategory('Acessories')">Acessories</button>
+            </div>
+        </div>
+        <!-- Filters for districts -->
+        <div class="filters-district">
+            <div>
+                <h3>Districts:</h3>
+                <button onclick="filterByDistrict('')">All</button>
+                <button onclick="filterByDistrict('Öster')">Öster</button>
+                <button onclick="filterByDistrict('Väster')">Väster</button>
+                <button onclick="filterByDistrict('Tändsticksområdet')">Tändsticksområdet</button>
+                <button onclick="filterByDistrict('Atollen')">Atollen</button>
+                <button onclick="filterByDistrict('Resecentrum')">Resecentrum</button>
+            </div>
+        </div>
         <section class="section-container stores-section-2">
             <!-- Store card -->
             {{#if stores}}
                 {{#each stores}}
-                    <div class="store">
+                    <div class="store" data-category="{{category}}" data-district="{{district}}">
                         <img src="https://upload.wikimedia.org/wikipedia/commons/7/71/Jönköpings_rådhus%2C_2018.jpg" />
                         <div class="store-content">
                             <div class="properties">

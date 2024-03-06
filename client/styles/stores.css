@@ -5,6 +5,9 @@
     text-align: center;
     font-size: 1.5rem;
 }
+.stores-section-1 {
+    padding-bottom: 75px;
+}
 .stores-section-2 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -12,7 +15,7 @@
     padding-top: 0;
 }
 .store {
-    background-color: #f4f1f1;
+    background-color: #f5f5f5;
     border-radius: 5px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -42,18 +45,66 @@
     display: flex;
     flex-direction: row;
     gap: 12px;
-    padding-bottom: 5px;
+    padding-bottom: 10px;
 }
 .district,
 .category {
     width: fit-content;
-    padding: 5px 12px;
+    padding: 7px 12px 5px 12px;
     border-radius: 5px;
     color: var(--color-02);
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+    letter-spacing: 1px;
 }
 .district {
     background-color: var(--color-04);
 }
 .category {
     background-color: var(--color-01);
+}
+.filters-category h3,
+.filters-district h3 {
+    margin-top: 3px;
+    font-size: 1.5rem;
+}
+.filters-category div,
+.filters-district div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+}
+.filters-category div {
+    margin-bottom: 20px;
+}
+.filters-district div {
+    margin-bottom: 50px;
+}
+.filters-category div button,
+.filters-district div button {
+    box-shadow: 2px 2px 3px var(--color-03);
+    color: var(--color-02);
+    padding: 7px 15px 5px 15px;
+    min-width: 60px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+}
+.filters-category div button {
+    background-color: var(--color-01);
+}
+.filters-district div button {
+    background-color: var(--color-04);
+}
+.filters-category div button:hover,
+.filters-district div button:hover {
+    background-color: var(--color-05);
 }
