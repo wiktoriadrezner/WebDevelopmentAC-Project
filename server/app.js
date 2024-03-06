@@ -72,6 +72,13 @@ app.get("/stores", (request, response) => {
     });
 });
 
+app.get("/about_copy", (request, response) => {
+    response.render("about_copy", {
+        webTitle: "Test",
+        webStyle: "styles/about_copy.css",
+    });
+});
+
 // Define a function to start the server
 const startServer = async () => {
     await Model.connectDatabase();
