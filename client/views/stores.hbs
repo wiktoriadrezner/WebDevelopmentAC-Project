@@ -21,7 +21,7 @@
                 <button onclick="filterByCategory('Electronics')">Electronics</button>
                 <button onclick="filterByCategory('Footwear')">Footwear</button>
                 <button onclick="filterByCategory('Home')">Home</button>
-                <button onclick="filterByCategory('Acessories')">Acessories</button>
+                <button onclick="filterByCategory('Accessories')">Accessories</button>
             </div>
         </div>
         <!-- Filters for districts -->
@@ -41,7 +41,7 @@
             {{#if stores}}
                 {{#each stores}}
                     <div class="store" data-category="{{category}}" data-district="{{district}}">
-                        <img src="https://upload.wikimedia.org/wikipedia/commons/7/71/Jönköpings_rådhus%2C_2018.jpg" />
+                        <img src="{{img}}" />
                         <div class="store-content">
                             <div class="properties">
                                 <!-- Category -->
@@ -83,3 +83,4 @@
         </section>
     </div>
 </div>
+<script src="/filter.js"></script>

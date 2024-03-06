@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function () {
         showSlide(currentSlide);
         setInterval(function () {
             showSlide(currentSlide + 1);
-        }, 8000); // Adjust the interval
+        }, 6000); // Adjust the interval
     }
 
     // Start the slideshow as soon as the DOM is ready
