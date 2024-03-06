@@ -14,12 +14,16 @@
                 {{#each stores}}
                     <div class="store">
                         <h3>{{name}}</h3>
+                        <!-- Check for the store URL -->
                         {{#if url}}
                             {{#if (startsWith url "http://")}}
+                                <!-- If the URL starts with http:// -->
                                 <a href="{{url}}" target="_blank">Visit {{name}}</a>
                             {{else if (startsWith url "https://")}}
+                                <!-- If the URL starts with https:// -->
                                 <a href="{{url}}" target="_blank">Visit {{name}}</a>
                             {{else}}
+                                <!-- If the URL has no http:// or https://, add http:// -->
                                 <a href="http://{{url}}" target="_blank">Visit {{name}}</a>
                             {{/if}}
                         {{/if}}

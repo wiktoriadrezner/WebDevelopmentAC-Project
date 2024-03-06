@@ -1,3 +1,4 @@
+// Image slider
 document.addEventListener("DOMContentLoaded", function () {
     let slides = document.querySelectorAll(".slide");
     let currentSlide = 0;
@@ -12,8 +13,9 @@ document.addEventListener("DOMContentLoaded", function () {
         showSlide(currentSlide);
         setInterval(function () {
             showSlide(currentSlide + 1);
-        }, 8000); // Adjust the interval as needed (milliseconds)
+        }, 8000); // Adjust the interval
     }
 
-    startSlideshow(); // Start the slideshow as soon as the DOM is ready
+    // Start the slideshow as soon as the DOM is ready
+    startSlideshow();
 });

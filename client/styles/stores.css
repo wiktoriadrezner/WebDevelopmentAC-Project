@@ -11,8 +11,7 @@
     gap: 50px;
     padding-top: 0;
 }
-.store,
-.stores-section-2 div {
+.store {
     background-color: #f4f4f4;
     padding: 25px;
     border-radius: 5px;
