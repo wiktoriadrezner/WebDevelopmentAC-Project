@@ -540,503 +540,575 @@
         "url": "kjell.com/se/butiker/sodra-strandgatan-5",
         "district": "Öster",
         "address": "Södra Strandgatan 5, 553 20 Jönköping",
-        "category": "Electronics"
+        "category": "Electronics",
+        "img": "https://haningecentrum.se/wp-content/uploads/2020/04/kjellcompany_logo.png"
     },
     {
         "name": "Klädscoopet",
         "url": "facebook.com/Kladscoopet/",
         "district": "Öster",
         "address": "Östra Storgatan 42, 553 21 Jönköping",
-        "category": "Fashion"
+        "category": "Fashion",
+        "img": "https://quickbutik.imgix.net/56232i/templates/swift/assets/topimage.png?1103&auto=format"
     },
     {
         "name": "KOiJ Konsthantverk",
         "url": "koij.se",
         "district": "Öster",
         "address": "Smedjegatan 22, 553 20 Jönköping",
-        "category": "Art"
+        "category": "Art",
+        "img": "https://www.koij.se/____impro/1/onewebmedia/KOIJ%20TILL%20TRYCK.jpg?etag=%227619-55253a42%22&sourceContentType=image%2Fjpeg&ignoreAspectRatio&resize=417%2B306&extract=0%2B0%2B352%2B305&quality=85"
     },
     {
         "name": "Kristina Brud & Fest",
         "url": "kristinabrud-fest.se",
         "district": "Väster",
         "address": "Östra Storgatan 44, 553 21 Jönköping",
-        "category": "Fashion"
+        "category": "Fashion",
+        "img": "https://kristinabrud-fest.se/____impro/1/onewebmedia/logokbf.jpg?etag=%22174e9-5bb25716%22&sourceContentType=image%2Fjpeg&ignoreAspectRatio&resize=500%2B364&quality=85"
     },
     {
         "name": "Kronans Apotek Atollen",
         "url": "apoteksinfo.nu/apotek/kronans_apotek_atollen_j%C3%B6nk%C3%B6ping-1415",
         "district": "Atollen",
         "address": "Lantmätargränd 36, 553 20 Jönköping",
-        "category": "Health"
+        "category": "Health",
+        "img": "https://xn--ppettider-z7a.nu//assets/content/images/chains/kronansapotek.png"
     },
     {
         "name": "Kvänum Kök",
         "url": "kvanum.com/se/showrooms/jonkoping/",
         "district": "Öster",
         "address": "Smedjegatan 42, 553 20 Jönköping",
-        "category": "Home"
+        "category": "Home",
+        "img": "https://scontent-arn2-1.xx.fbcdn.net/v/t39.30808-6/313030054_624600472432899_8810404783920251137_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=5f2048&_nc_ohc=EFR9y8f8MakAX_GGfCt&_nc_ht=scontent-arn2-1.xx&oh=00_AfD0lSvFPw7yrnUC5FXiGhw6t2Bo0rJzsFqztoAOCXAwvQ&oe=65EC7421"
     },
     {
         "name": "Lagerhaus",
         "url": "lagerhaus.se/stores",
         "district": "Öster",
         "address": "Östra Storgatan 20, 553 21 Jönköping",
-        "category": "Home"
+        "category": "Home",
+        "img": "data:image/png;base64,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"
     },
     {
         "name": "Lavér Studio",
         "url": "laverstudio.com/",
         "district": null,
         "address": "Västra Storgatan 6, 553 15 Jönköping",
-        "category": "Home"
+        "category": "Home",
+        "img": "https://static.wixstatic.com/media/76d899_fe4bcf3f7d824d2887b7451cf0d754bb~mv2_d_7500_7500_s_4_2.png"
     },
     {
         "name": "Life Naturlig Hälsa",
         "url": "https://www.lifebutiken.se/stores",
         "district": "Väster",
         "address": "Barnarpsgatan 17, 553 16 Jönköping",
-        "category": "Health"
+        "category": "Health",
+        "img": "https://kongahallacenter.se/wp-content/uploads/2019/02/life-logo-payoff_2020.png"
     },
     {
         "name": "Lilla Violen",
         "url": "lillaviolen.com/",
         "district": "Väster",
         "address": "Barnarpsgatan 21, 553 16 Jönköping",
-        "category": "Fashion"
+        "category": "Fashion",
+        "img": "https://cdn.starwebserver.se/shops/lilla-violen/files/lilla-violen-logotyp-small.jpg?_=1586244406"
     },
     {
         "name": "Lindex",
         "url": "lindex.com/se/hitta-din-butik?location=57.756066%2C14.188254&storeId=002&zoom=11",
         "district": "Öster",
         "address": "Östra Storgatan 15 A, 553 21 Jönköping",
-        "category": "Fashion"
+        "category": "Fashion",
+        "img": "https://about.lindex.com/files/Images/logotypes/Lindex_logo_red_png.png"
     },
     {
         "name": "Livspotential Kroppsterapi",
         "url": "facebook.com/Livspotential/",
         "district": null,
         "address": "Västra Storgatan 43, Jönköping",
-        "category": "Health"
+        "category": "Health",
+        "img": "https://scontent-arn2-1.xx.fbcdn.net/v/t39.30808-6/305028922_770811934218302_4340377422493470478_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=5f2048&_nc_ohc=Ets6HEvilSsAX9M0GkL&_nc_ht=scontent-arn2-1.xx&oh=00_AfCcwSmIayaLbcQaJiEAm18wuwebFEfiQTMIV8OA0nuZrg&oe=65EC650D"
     },
     {
         "name": "Lloyd Tabing Art Gallery",
         "url": "lloydtabingart.com/",
         "district": "Tändsticksområdet",
         "address": "Tändsticksgränd 5, 553 15 Jönköping",
-        "category": "Art"
+        "category": "Art",
+        "img": "https://images.squarespace-cdn.com/content/v1/645de5d207a7766cd66d83ea/fcf4e8de-46f0-409d-9320-ed34e52c7725/logo.jpg?format=1500w"
     },
     {
         "name": "Macforum",
         "url": "macforum.se/butiker/forum-jonkoping",
         "district": "Öster",
         "address": "Östra Storgatan 7-9, 553 12  Jönköping",
-        "category": "Electronics"
+        "category": "Electronics",
+        "img": "https://www.macforum.se/c764041662531fed58d11d5ab5ffeb95.svg"
     },
     {
         "name": "MarQet",
         "url": "mq.se/butiker/?gclid=Cj0KCQjwteOaBhDuARIsADBqRejM-U3YQY9vh4F6gSXC2LnJWPVGKJ7CGfiCl1tYkREGUR37cTWMNcoaAjFGEALw_wcB",
         "district": "Öster",
         "address": "Lantmätargränd 4, 553 21 Jönköping",
-        "category": "Fashion"
+        "category": "Fashion",
+        "img": "https://www.mq.se/ui_marqet/build/assets/images/logo.svg"
     },
     {
         "name": "Mimosa City",
         "url": "mimosacity.se",
         "district": null,
         "address": "Klostergatan 65, 553 35 Jönköping",
-        "category": "Lifestyle"
+        "category": "Lifestyle",
+        "img": "https://www.mimosacity.se/thumbs/300x200r/intendit/graphics/logo3.png"
     },
     {
         "name": "Moderna Smycken",
         "url": "klockorochsmycken.se/",
         "district": "Öster",
         "address": "Östra Storgatan 5, 55321 Jönköping",
-        "category": "Accessories"
+        "category": "Accessories",
+        "img": "https://klockorochsmycken.se/wp-content/uploads/2022/04/kos.svg"
     },
     {
         "name": "Naturkompaniet",
         "url": "murphysbar.se/sv/",
         "district": "Öster",
         "address": "Östra Storgatan 24, 553 21 Jönköping",
-        "category": "Lifestyle"
+        "category": "Lifestyle",
+        "img": "https://s3-eu-west-1.amazonaws.com/tpd/logos/46d949f4000064000500fe16/0x0.png"
     },
     {
         "name": "Newhouse",
         "url": "newhouse.se/newhouse/vara-butiker",
         "district": "Atollen",
         "address": "Lantmätargränd 38, 553 20 Jönköping",
-        "category": "Fashion"
+        "category": "Fashion",
+        "img": "https://www.nk.se/globalassets/varumarkessidor/newhouse/svart---original-349185.png?ref=D56FD577EA"
     },
     {
         "name": "New Yorker",
         "url": "newyorker.de/se/stores/",
         "district": "Öster",
         "address": "Östra Storgatan 7-9, 550 09 Jönköping",
-        "category": "Fashion"
+        "category": "Fashion",
+        "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/New_Yorker.svg/2560px-New_Yorker.svg.png"
     },
     {
         "name": "Nilson Shoes",
         "url": "dinsko.se/stores",
         "district": "Öster",
         "address": "Östra Storgatan 17, 553 21 Jönköping",
-        "category": "Footwear"
+        "category": "Footwear",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0sNJF2GVAgGrR9Qh4N6-rubWiMUdHjEwFWW7FZgUa-g&s"
     },
     {
         "name": "Noa Noa",
         "url": "httpsfacebook.com/Noa-Noa-J%C3%B6nk%C3%B6ping-446212958766553/",
         "district": "Öster",
         "address": "Smedjegatan 17, 553 20 Jönköping",
-        "category": "Fashion"
+        "category": "Fashion",
+        "img": "https://se.noanoa.com/cdn/shop/files/NN_logo_black.png?v=1623839435&width=500"
     },
     {
         "name": "Nordisk Möbelkonst",
         "url": "nordiskmobelkonst.se/",
         "district": "Öster",
         "address": "Östra Storgatan 37, 553 21 Jönköping",
-        "category": "Home"
+        "category": "Home",
+        "img": "https://www.nordiskagalleriet.se/bilder/Nordiska-Galleriet-Deskop.svg"
     },
     {
         "name": "Normal",
         "url": "normal.se/hitta-butik/",
         "district": "Öster",
         "address": "Östra Storgatan 19B, 553 20 Jönköping",
-        "category": "Health"
+        "category": "Health",
+        "img": "https://mellerudhandel.se/wp-content/uploads/2024/01/Normal_logo_sort.png"
     },
     {
         "name": "Nya Musik",
         "url": "nyamusik.se/",
         "district": "Väster",
         "address": "Oxtorgsgatan 9, 553 17 Jönköping",
-        "category": "Art"
+        "category": "Art",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQArgGTvx8-ZWR-ZlPYmi0DJEQVOxHtvNX9gcDhCZysPw&s"
     },
     {
         "name": "Once for girls",
         "url": "oncestore.se/",
         "district": "Öster",
         "address": "Lantmätargränd 32, 553 20 Jönköping",
-        "category": "Fashion"
+        "category": "Fashion",
+        "img": "https://www.oncestore.se/images/Once/logo.png"
     },
     {
         "name": "Önska",
         "url": "onska.se/vara-butiker/",
         "district": "Öster",
         "address": "Östra Storgatan 27A, 553 21 Jönköping",
-        "category": "Food"
+        "category": "Food",
+        "img": "https://onska.se/wp-content/uploads/2019/09/onska_logo.svg"
     },
     {
         "name": "Optiker Jahnke",
         "url": "jahnke.se/",
         "district": "Öster",
         "address": "Östra Storgatan 6, 553 21 Jönköping",
-        "category": "Health"
+        "category": "Health",
+        "img": "https://static.wixstatic.com/media/896b16_f14bc7e84324467c9059cc0bb629687e~mv2.png/v1/crop/x_9,y_0,w_982,h_400/fill/w_120,h_49,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/jahnke_logo_web_greige_2022.png"
     },
     {
         "name": "Optiker Ullström",
         "url": "optikerullstrom.se/",
         "district": "Väster",
         "address": "Barnarpsgatan 7, 553 16 Jönköping",
-        "category": "Health"
+        "category": "Health",
+        "img": "https://static.wixstatic.com/media/9ee48d_69f2c858e12846679e2e1df6825654e7~mv2.png/v1/fill/w_794,h_110,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Ullstr%C3%B6m%20logo%201.png"
     },
     {
         "name": "Optik & Form",
         "url": "optikochform.se/",
         "district": null,
         "address": "Smedjegatan 18, 553 20 Jönköping",
-        "category": "Health"
+        "category": "Health",
+        "img": "https://www.optikochform.se/wp-content/uploads/2021/08/site_logo_neg.png"
     },
     {
         "name": "Partyland",
         "url": "partyland.party/butiker/",
         "district": "Väster",
         "address": "Nygatan 11, 553 16 Jönköping",
-        "category": "Lifestyle"
+        "category": "Lifestyle",
+        "img": "https://shop.partyland.party/files/logo/store_logo.png?d=1680693722"
     },
     {
         "name": "Planta Blommor",
         "url": "plantablommor.se/?gclid=Cj0KCQjwteOaBhDuARIsADBqRehsWXSRNHjeGnPn_AyambJZLmNntWxsMnUkANIHdme0NoDtc2Xi8mgaAicoEALw_wcB#.Y2p1tuzMLPZ",
         "district": "Väster",
         "address": "Barnarpsgatan 24, 55316 Jönköping",
-        "category": "Lifestyle"
+        "category": "Lifestyle",
+        "img": "https://www.interflora.se/Assets/Images/logo.svg"
     },
     {
         "name": "Pleasure erotic shop",
         "url": "pleasureeroticshop.se/",
         "district": "Väster",
         "address": "Nygatan 10, 553 16 Jönköping",
-        "category": "Lifestyle"
+        "category": "Lifestyle",
+        "img": "https://mb.cision.com/Public/908/2346066/a17da4378d7ef1c9_800x800ar.jpg"
     },
     {
         "name": "PMU Second Hand Jönköping City",
         "url": "pmu.se/stores/jonkopingcity/",
         "district": "Öster",
         "address": "Smedjegatan 27, 553 20 Jönköping",
-        "category": "Home"
+        "category": "Home",
+        "img": "https://scontent-arn2-1.xx.fbcdn.net/v/t39.30808-6/310267909_521599919970835_700168345851375687_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_ohc=xdrkh4ElOwAAX-Wlgsu&_nc_ht=scontent-arn2-1.xx&oh=00_AfA5Y_U6CFmd0MB0iCO6cxwisSEb8VGGRlYXFPZPzCq4yA&oe=65ED539D"
     },
     {
         "name": "Pressbyrån Östra storgatan",
         "url": "pressbyran.se/kontakt/hitta-butik/",
         "district": "Öster",
         "address": "Östra Storgatan 8, 553 21 Jönköping",
-        "category": "Lifestyle"
+        "category": "Lifestyle",
+        "img": "https://www.avenyn.se/wp-content/uploads/2017/05/pressbyran-700x418.png"
     },
     {
         "name": "Pressbyrån Resecentrum",
         "url": "pressbyran.se/kontakt/hitta-butik/",
         "district": "Resecentrum",
         "address": "Järnvägsgatan 12, 553 15 Jönköping",
-        "category": "Lifestyle"
+        "category": "Lifestyle",
+        "img": "https://www.avenyn.se/wp-content/uploads/2017/05/pressbyran-700x418.png"
     },
     {
         "name": "Pressbyrån Väster",
         "url": "pressbyran.se/kontakt/hitta-butik/",
         "district": "Väster",
         "address": "Klostergatan 41, 553 35 Jönköping",
-        "category": "Lifestyle"
+        "category": "Lifestyle",
+        "img": "https://www.avenyn.se/wp-content/uploads/2017/05/pressbyran-700x418.png"
     },
     {
         "name": "Rabalder",
         "url": "publik.rabalder.se/butiker/joenkoeping.aspx",
         "district": "Öster",
         "address": "Smedjegatan 16, 553 20 Jönköping",
-        "category": "Fashion"
+        "category": "Fashion",
+        "img": "https://admin.abicart.se/shop/ws52/62752/files/loggor/rabalder-authentic-gra50.jpg?max-width=780&max-height=390&quality=85"
     },
     {
         "name": "Resehuset",
         "url": "resehuset.se/",
         "district": "Väster",
         "address": "Barnarpsgatan 23, 553 16 Jönköping",
-        "category": "Lifestyle"
+        "category": "Lifestyle",
+        "img": "https://www.resehuset.se/media/resehuset-logo-387x73.jpg"
     },
     {
         "name": "Rituals",
         "url": "rituals.com/sv-se/store-detail?store=J%C3%B6nk%C3%B6ping-%C3%96stra-Storgatan",
         "district": "Öster",
         "address": "Östra Storgatan 13A, 553 21 Jönköping",
-        "category": "Lifestyle"
+        "category": "Lifestyle",
+        "img": "https://shop.brusselsairport.be/medias/logo-ritual.svg?context=bWFzdGVyfHJvb3R8MzQwMTl8aW1hZ2Uvc3ZnK3htbHxoYjEvaDA4Lzg4MDQwMDA5MjM2NzgvbG9nby1yaXR1YWwuc3ZnfDQ4YWIxZmIyZmM0MzIzNzg3OTUxMTY4YzFkNGI5OTQyNDAxZWY2ZjhkMTZjYTg0ODBjMDZhNGI4YTVkOTc3MTg"
     },
     {
         "name": "Rizzo",
         "url": "rizzo.se/stores/",
         "district": "Öster",
         "address": "Östra Storgatan 11, 553 21 Jönköping",
-        "category": "Accessories"
+        "category": "Accessories",
+        "img": "https://media.viskanassets.com/v2/rizzoprod/original/Rizzo-logo.svg"
     },
     {
         "name": "Röda Korset Second Hand ",
         "url": "rodakorset.se/vad-vi-gor/second-hand/butiker/roda-korset-secondhand-jonkoping/?gclid=CjwKCAjwzY2bBhB6EiwAPpUpZvHzKjPuEJP8mzdhkuZYuEUoinVduEX8lEL6C0cnHq-JkG5o4XalYBoCwX8QAvD_BwE",
         "district": "Väster",
         "address": "Klostergatan 3, 553 17 Jönköping",
-        "category": "Home"
+        "category": "Home",
+        "img": "https://www.rodakorset.se/globalassets/srk_footer.svg"
     },
     {
         "name": "Rundquist & Zälle",
         "url": "rundquist-zalle.com",
         "district": "Väster",
         "address": "Barnarpsgatan 7, 553 16 Jönköping",
-        "category": "Fashion"
+        "category": "Fashion",
+        "img": "https://www.rundquist-zalle.com/cdn/shop/files/Rityta_2.png?v=1673628595&width=500"
     },
     {
         "name": "Säfvers Tobak",
         "url": "facebook.com/people/S%C3%A4fvers-tobak/100049803762896/",
         "district": null,
         "address": "Västra Storgatan 10, 553 15 Jönköping",
-        "category": "Lifestyle"
+        "category": "Lifestyle",
+        "img": "https://om.svenskaspel.se/wp-content/uploads/2019/01/safvers-tobak-butik.jpg"
     },
     {
         "name": "SåIniNordeN",
         "url": "saininorden.se/",
         "district": "Öster",
         "address": "Smedjegatan 21, 55320 Jönköping",
-        "category": "Fashion"
+        "category": "Fashion",
+        "img": "https://saininorden.se/cdn/shop/files/IMG_2147_1120x.jpg?v=1620632436"
     },
     {
         "name": "Sandströms",
         "url": "sandstroms.nu/butiker/sandstroms-jonkoping",
         "district": "Öster",
         "address": "Bredgränd 14, 553 20 Jönköping",
-        "category": "Fashion"
+        "category": "Fashion",
+        "img": "https://galleriavasterport.se/wp-content/uploads/2021/08/Sandstroms_Logga_2021_Galleria-Vasterport-Vastervik.png"
     },
     {
         "name": "Sarabello",
         "url": "facebook.com/people/SARABELLO/100054240470073/",
         "district": "Öster",
         "address": "Lantmätargränd 45, 553 20 Jönköping",
-        "category": "Fashion"
+        "category": "Fashion",
+        "img": "https://scontent-arn2-1.xx.fbcdn.net/v/t39.30808-6/313169542_630926218725388_2347392626203769864_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=5f2048&_nc_ohc=9DzlIi4wCr4AX8hFsV5&_nc_ht=scontent-arn2-1.xx&oh=00_AfCQUVLM2jGA_tfW79KcO9Wptaf9v-YsUP-0QulZ5dTW-A&oe=65EC5115"
     },
     {
         "name": "Saumas sko & nyckelservice",
         "url": "saumasskoochnyckelservice.heymo.se/",
         "district": null,
         "address": "Borgmästargränd 5, 553 20 Jönköping",
-        "category": "Lifestyle"
+        "category": "Lifestyle",
+        "img": "https://www.mobilia.se/contentassets/1f91facc858c4babb9c5a2523b2eb42b/sko.jpg"
     },
     {
         "name": "Sjöqvists skomakeri",
         "url": "sjoqvistskomakeri.se/",
         "district": "Väster",
         "address": "Oxtorgsgatan 19, 553 17 Jönköping",
-        "category": "Footwear"
+        "category": "Footwear",
+        "img": "https://sjoqvistskomakeri.se/____impro/1/onewebmedia/skomakar%20logga.PNG?etag=%22c0d4-5fa97e7e%22&sourceContentType=image%2Fpng&ignoreAspectRatio&resize=461%2B225&extract=17%2B19%2B428%2B188"
     },
     {
         "name": "Smålands Skinnmanufaktur",
         "url": "smalandsskinnmanufaktur.se/",
         "district": "Tändsticksområdet",
         "address": "Rudu Gård 50, 561 92 Huskvarna",
-        "category": "Home"
+        "category": "Home",
+        "img": "https://scontent-arn2-1.cdninstagram.com/v/t51.2885-19/242338770_972357643612436_4370129153295175554_n.jpg?stp=dst-jpg_s320x320&_nc_ht=scontent-arn2-1.cdninstagram.com&_nc_cat=108&_nc_ohc=HE-sBWkFOpgAX_-w5L-&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AfDZyC_MtyZggYRHDW1x4MjTvExx2XZ9HBQ3CGoYhip3Cw&oe=65EDCCF1&_nc_sid=8b3546"
     },
     {
         "name": "Smarteyes",
         "url": "smarteyes.se/butiker/jonkoping",
         "district": null,
         "address": "Östra Storgatan 13A, 553 21 Jönköping",
-        "category": "Health"
+        "category": "Health",
+        "img": "https://www.centersyd.se/media/peclsb2w/smarteyes_logo-3x.png?width=640&height=640&mode=pad&bgcolor=fff"
     },
     {
         "name": "Smycka Guld",
         "url": "smycka.se/store/19",
         "district": null,
         "address": "Östra Storgatan 12, 553 21 Jönköping",
-        "category": "Accessories"
+        "category": "Accessories",
+        "img": "https://www.brollopsmagasinet.se/wp-content/uploads/2022/12/smycka-logo.jpg"
     },
     {
         "name": "Smycket",
         "url": "smycketjonkoping.se/",
         "district": null,
         "address": "Smedjegatan 20, 553 20 Jönköping",
-        "category": "Accessories"
+        "category": "Accessories",
+        "img": "https://www.smycket.com/images/Smycket_Nordic_Art_loggo_stor.jpg"
     },
     {
         "name": "Specsavers",
         "url": "httpspecsavers.se/hitta-till-din-butik/jonkoping-city?utm_source=google&utm_medium=organic&utm_campaign=gmb-website&utm_content=jonkoping&y_source=1_NDA4Nzk2NjQtNzE1LWxvY2F0aW9uLndlYnNpdGU%3D",
         "district": null,
         "address": "Borgmästargränd 3, 553 20 Jönköping",
-        "category": "Health"
+        "category": "Health",
+        "img": "https://upload.wikimedia.org/wikipedia/commons/7/78/Specsavers_logo.svgs"
     },
     {
         "name": "Stagelight",
         "url": "stagelight.se/",
         "district": null,
         "address": "Tändsticksgränd 7, 553 15 Jönköping",
-        "category": "Art"
+        "category": "Art",
+        "img": "https://5ff1a77e04b2c.yolasitebuilder.loopia.com/ws/resized-images/1c051e7d0c754b5bbee75fb80627b943/stage_view4-300.png"
     },
     {
         "name": "Stil",
         "url": "stilbutikerna.se/",
         "district": "Öster",
         "address": "Barnarpsgatan 19, 553 16 Jönköping",
-        "category": "Health"
+        "category": "Health",
+        "img": "https://lh3.googleusercontent.com/p/AF1QipNZvy_hOghsMS8Xk7YwwRKKDSbZ6YPlxZFsZO8n=s1360-w1360-h1020"
     },
     {
         "name": "Story",
         "url": "storyjkpg.se",
         "district": "Atollen",
         "address": "Lantmätargränd 40, 553 20 Jönköping",
-        "category": "Fashion"
+        "category": "Fashion",
+        "img": "https://storyjkpg.se/wp-content/uploads/2019/03/Story-Logo-Vit-1024x360.png"
     },
     {
         "name": "SunOff",
         "url": "sunoff.se/butiker/jonkoping?gclid=CjwKCAjw8JKbBhBYEiwAs3sxNy3EnUFGceeFxyJN35fymdpsg5qEWUTPj6Sx0TbNoLdwp8E6AI-I5xoC45gQAvD_BwE",
         "district": "Väster",
         "address": "Kapellgatan 1, 553 17 Jönköping",
-        "category": "Electronics"
+        "category": "Electronics",
+        "img": "https://sunoff.se/static/version1705739762/frontend/Ny/sunoff/sv_SE/images/logo_SunOff_new.svg"
     },
     {
         "name": "Synoptik",
         "url": "httpsynoptik.se/butiker/jonkoping/jonkoping-ostra-storgatan5?utm_campaign=gmb-website&utm_source=google&utm_medium=organic&utm_content=667-Jonkoping-Ostra-Storgatan-5",
         "district": null,
         "address": "Östra Storgatan 5, 553 21 Jönköping",
-        "category": "Health"
+        "category": "Health",
+        "img": "https://gv-brxm.imgix.net/binaries/_ht_1545211754206/content/gallery/se-synoptik/logos/logolarge.png"
     },
     {
         "name": "Synsam Jönköping Öster",
         "url": "synsam.se/optiker/synsam-j%C3%B6nk%C3%B6ping-%C3%B6ster/128",
         "district": "Öster",
         "address": "Lantmätargränd 9, 553 20 Jönköping",
-        "category": "Health"
+        "category": "Health",
+        "img": "https://www.alltomlinser.se/images/optiker/synsam-logo.png"
     },
     {
         "name": "Synsam Jönköping Väster",
         "url": "synsam.se/optiker/synsam-j%C3%B6nk%C3%B6ping-v%C3%A4ster/125",
         "district": "Väster",
         "address": "Västra Storgatan 1, 553 15 Jönköping",
-        "category": "Health"
+        "category": "Health",
+        "img": "https://www.alltomlinser.se/images/optiker/synsam-logo.png"
     },
     {
         "name": "Systembolaget",
         "url": "systembolaget.se/butiker-ombud/",
         "district": "Öster",
         "address": "Bataljonsgatan 5, 553 05, Jönköping",
-        "category": "Lifestyle"
+        "category": "Lifestyle",
+        "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Systembolaget_logo_%28new%29.svg/1200px-Systembolaget_logo_%28new%29.svg.png"
     },
     {
         "name": "The Body Shop",
         "url": "thebodyshop.com/sv-se/store-details/jonkoping-smedjegatan/3801?utm_source=google&utm_medium=organic-local&utm_campaign=yext&utm_content=3801",
         "district": "Öster",
         "address": "Kompanigatan 38, 553 05 Jönköping",
-        "category": "Lifestyle"
+        "category": "Lifestyle",
+        "img": "https://upload.wikimedia.org/wikipedia/en/thumb/8/87/The_Body_Shop_logo_2020.svg/1200px-The_Body_Shop_logo_2020.svg.png"
     },
     {
         "name": "Ticket",
         "url": "ticket.se/resebutiker/jonkoping.html",
         "district": null,
         "address": "Västra Storgatan 2, 553 15 Jönköping",
-        "category": "Lifestyle"
+        "category": "Lifestyle",
+        "img": "https://www.ticket.se/dam/docroot/images/ticket/ticket.svg"
     },
     {
         "name": "Twilfit",
         "url": "shop.change.com/sv-SE",
         "district": "Öster",
         "address": "Östra Storgatan 8, 553 21 Jönköping",
-        "category": "Fashion"
+        "category": "Fashion",
+        "img": "https://brommablocks.se/wp-content/uploads/2019/09/376x376_twilfit-logo-1.png"
     },
     {
         "name": "Ur & Penn",
         "url": "uropenn.se/hitta-butik/",
         "district": "Öster",
         "address": "Östra Storgatan 34, 553 21 Jönköping",
-        "category": "Accessories"
+        "category": "Accessories",
+        "img": "https://www.centersyd.se/media/xr4nwiwq/uropenn_logo_blue.png?width=640&height=640&mode=pad&bgcolor=fff"
     },
     {
         "name": "Västanhem Butik",
         "url": "vastanhem.se",
         "district": "Väster",
         "address": "Barnarpsgatan 29, 553 16 Jönköping",
-        "category": "Home"
+        "category": "Home",
+        "img": "https://vastanhem.se/images/vh-w.svg"
     },
     {
         "name": "Västra klackbaren",
         "url": null,
         "district": null,
         "address": "Västra Storgatan 6, 553 15 Jönköping",
-        "category": "Footwear"
+        "category": "Footwear",
+        "img": "https://d1da7yrcucvk6m.cloudfront.net/sites/144/media/19741_original_20130302_121628.png?1409837046"
     },
     {
         "name": "Vätterbygden Ankarbergs Begravningsbyrå",
         "url": "ankarbergs.se/",
         "district": null,
         "address": "Nygatan 11, 553 16 Jönköping",
-        "category": "Lifestyle"
+        "category": "Lifestyle",
+        "img": "https://www.ankarbergs.se/wp-content/uploads/sites/56/2022/06/Vatterbygden-Ankarbergs.png"
     },
     {
         "name": "Vätterfisk",
         "url": "xn--vtterfisk-v2a.se/",
         "district": "Väster",
         "address": "Trädgårdsgatan 9, 553 16 Jönköping",
-        "category": "Food"
+        "category": "Food",
+        "img": "https://images.squarespace-cdn.com/content/v1/65ad048c26e75128da50652a/43d692cc-ea07-4949-b403-4e5150adff67/Sk%C3%A4rmbild+2024-02-01+153652.jpg"
     },
     {
         "name": "Yxhage Lås och Larm",
         "url": "yxhage.se/",
         "district": null,
         "address": "Östra Storgatan 41, 553 21 Jönköping",
-        "category": "Home"
+        "category": "Home",
+        "img": "https://brf360.se/wp-content/uploads/2021/05/Yxhage.jpg"
     },
     {
         "name": "Zephyr Tattoo Parlour",
         "url": "zephyrtattoo.se",
         "district": "Öster",
         "address": "Östra Storgatan 42, 553 21 Jönköping",
-        "category": "Lifestyle"
+        "category": "Lifestyle",
+        "img": "https://zephyrtattoo.se/____impro/1/onewebmedia/Untitled-1.jpg?etag=W%2F%222aaab-60460e7a%22&sourceContentType=image%2Fjpeg&ignoreAspectRatio&resize=649%2B472&extract=0%2B0%2B648%2B463&quality=85"
     }
 ]

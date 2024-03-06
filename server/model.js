@@ -32,6 +32,7 @@ class Model {
                 district text,
                 address text,
                 category text,
+                img text,
                 CONSTRAINT stores_pkey PRIMARY KEY (id)
             );
         `);
@@ -55,10 +56,10 @@ class Model {
             if (rows.length === 0) {
                 await this.connection.query(
                     `
-                    INSERT INTO public.stores (name, url, district, address, category)
-                    VALUES ($1, $2, $3, $4, $5)
+                    INSERT INTO public.stores (name, url, district, address, category, img)
+                    VALUES ($1, $2, $3, $4, $5, $6)
                     `,
-                    [store.name, store.url, store.district, store.address, store.category]
+                    [store.name, store.url, store.district, store.address, store.category, store.img]
                 );
             }
         }
