@@ -16,10 +16,18 @@ const app = express();
 app.set("view engine", "hbs");
 app.set("views", "./client/views");
 
+// Define a custom helper function
+const helpers = {
+    startsWith: function (str, prefix) {
+        return str.startsWith(prefix);
+    },
+};
+
 app.engine(
     "hbs",
     expressHandlebars.engine({
         defaultLayout: "main.hbs",
+        helpers: helpers, // Register the custom helper function
     })
 );
 
@@ -65,11 +73,28 @@ app.get("/contact", (request, response) => {
 });
 
 // Render the stores page
-app.get("/stores", (request, response) => {
-    response.render("stores", {
-        webTitle: "Stores",
-        webStyle: "styles/stores.css",
-    });
+// app.get("/stores", (request, response) => {
+//     response.render("stores", {
+//         webTitle: "Stores",
+//         webStyle: "styles/stores.css",
+//     });
+// });
+
+app.get("/stores", async (request, response) => {
+    try {
+        // Retrieve stores data from the existing route handler
+        const stores = await Model.getAllStores();
+
+        // Render the stores page with data retrieved from the database
+        response.render("stores", {
+            webTitle: "Stores",
+            webStyle: "styles/stores.css",
+            stores: stores,
+        });
+    } catch (error) {
+        console.error("Error retrieving stores:", error);
+        response.status(500).send("Internal Server Error");
+    }
 });
 
 app.get("/about_copy", (request, response) => {

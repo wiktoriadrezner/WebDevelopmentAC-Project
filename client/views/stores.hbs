@@ -9,48 +9,28 @@
     <!-- Grid -->
     <div class="container-mxwidth">
         <section class="section-container stores-section-2">
-            <div>
-                <h3>Card 3</h3>
-                <p>
-                    The board consists of representatives from the Association of Property Owners in Jönköping City, Jönköping Handel and from Jönköping
-                    Municipality. The chairman of the board is Peder Karlén.
-                </p>
-            </div>
-            <div>
-                <h3>Card 3</h3>
-                <p>
-                    The board consists of representatives from the Association of Property Owners in Jönköping City, Jönköping Handel and from Jönköping
-                    Municipality. The chairman of the board is Peder Karlén.
-                </p>
-            </div>
-            <div>
-                <h3>Card 3</h3>
-                <p>
-                    The board consists of representatives from the Association of Property Owners in Jönköping City, Jönköping Handel and from Jönköping
-                    Municipality. The chairman of the board is Peder Karlén.
-                </p>
-            </div>
-            <div>
-                <h3>Card 3</h3>
-                <p>
-                    The board consists of representatives from the Association of Property Owners in Jönköping City, Jönköping Handel and from Jönköping
-                    Municipality. The chairman of the board is Peder Karlén.
-                </p>
-            </div>
-            <div>
-                <h3>Card 3</h3>
-                <p>
-                    The board consists of representatives from the Association of Property Owners in Jönköping City, Jönköping Handel and from Jönköping
-                    Municipality. The chairman of the board is Peder Karlén.
-                </p>
-            </div>
-            <div>
-                <h3>Card 3</h3>
-                <p>
-                    The board consists of representatives from the Association of Property Owners in Jönköping City, Jönköping Handel and from Jönköping
-                    Municipality. The chairman of the board is Peder Karlén.
-                </p>
-            </div>
+            <!-- Store card -->
+            {{#if stores}}
+                {{#each stores}}
+                    <div class="store">
+                        <h3>{{name}}</h3>
+                        {{#if url}}
+                            {{#if (startsWith url "http://")}}
+                                <a href="{{url}}" target="_blank">Visit {{name}}</a>
+                            {{else if (startsWith url "https://")}}
+                                <a href="{{url}}" target="_blank">Visit {{name}}</a>
+                            {{else}}
+                                <a href="http://{{url}}" target="_blank">Visit {{name}}</a>
+                            {{/if}}
+                        {{/if}}
+                        <h4> District: {{district}}</h4>
+                        <h4> Category: {{category}}</h4>
+                        <p> Address: {{address}}</p>
+                    </div>
+                {{/each}}
+            {{else}}
+                <p>No stores found</p>
+            {{/if}}
         </section>
     </div>
 </div>
