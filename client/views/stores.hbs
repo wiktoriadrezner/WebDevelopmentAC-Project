@@ -13,23 +13,40 @@
             {{#if stores}}
                 {{#each stores}}
                     <div class="store">
-                        <h3>{{name}}</h3>
-                        <!-- Check for the store URL -->
-                        {{#if url}}
-                            {{#if (startsWith url "http://")}}
-                                <!-- If the URL starts with http:// -->
-                                <a href="{{url}}" target="_blank">Visit {{name}}</a>
-                            {{else if (startsWith url "https://")}}
-                                <!-- If the URL starts with https:// -->
-                                <a href="{{url}}" target="_blank">Visit {{name}}</a>
-                            {{else}}
-                                <!-- If the URL has no http:// or https://, add http:// -->
-                                <a href="http://{{url}}" target="_blank">Visit {{name}}</a>
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/7/71/Jönköpings_rådhus%2C_2018.jpg" />
+                        <div class="store-content">
+                            <div class="properties">
+                                <!-- Category -->
+                                {{#if category}}
+                                    <div class="category">
+                                        {{category}}
+                                    </div>
+                                {{/if}}
+                                <!-- District -->
+                                {{#if district}}
+                                    <div class="district">
+                                        {{district}}
+                                    </div>
+                                {{/if}}
+                            </div>
+                            <!-- Store name -->
+                            <h3>{{name}}</h3>
+                            <!-- Store address -->
+                            <p><b>Address:</b> {{address}}</p>
+                            <!-- Check for the store URL -->
+                            {{#if url}}
+                                {{#if (startsWith url "http://")}}
+                                    <!-- If the URL starts with http:// -->
+                                    <a href="{{url}}" target="_blank">Visit {{name}}</a>
+                                {{else if (startsWith url "https://")}}
+                                    <!-- If the URL starts with https:// -->
+                                    <a href="{{url}}" target="_blank">Visit {{name}}</a>
+                                {{else}}
+                                    <!-- If the URL has no http:// or https://, add http:// -->
+                                    <a href="http://{{url}}" target="_blank">Visit {{name}}</a>
+                                {{/if}}
                             {{/if}}
-                        {{/if}}
-                        <h4> District: {{district}}</h4>
-                        <h4> Category: {{category}}</h4>
-                        <p> Address: {{address}}</p>
+                        </div>
                     </div>
                 {{/each}}
             {{else}}
